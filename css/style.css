@@ -1,0 +1,16 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.icon {
+  width: 20px;
+}
