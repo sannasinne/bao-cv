@@ -225,5 +225,46 @@ header h2 {
 --------------------------*/
 
 @media screen and (max-width: 680px) {
+ .container {
+   flex-direction: column;
+ }
+
+ .column-reverse {
+   flex-direction: column-reverse;
+ }
+
+ header img {
+  width: 20rem;
+   margin-right: 0;
+ }
+
+ h1 {
+   text-align: center;
+ }
+
+ header h2 {
+   text-align: center;
+ }
+
+ .cv,
+ .sidebar {
+  padding: 2rem 2rem;
+ }
+
+ .cv h2:after {
+  width: 40%;
+}
+
+.refes {
+  flex-direction: column;
+}
+
+.refes div {
+  margin-bottom: 2rem;
+}
+
+.sidebar h3 {
+  font-size: 1.8rem;
+}
 
 }
