@@ -62,7 +62,7 @@ ul {
 }
 
 ul li {
-  padding-bottom: .5rem;
+  padding-bottom: 1.2rem;
 }
 
 /* -------------------------
@@ -120,6 +120,28 @@ header h2 {
 
 .sidebar p:last-of-type {
   padding-right: 1rem;
+}
+
+.dot {
+  height: 1rem;
+  width: 1rem;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: .5rem;
+}
+
+.dot-empty {
+  background-color: var(--light-grey);
+}
+
+.dots {
+  margin: 0;
+  padding: 0;
+}
+
+.dots-2 {
+  margin-bottom: 0;
 }
 
 /* -------------------------
@@ -242,17 +264,25 @@ header h2 {
    text-align: center;
  }
 
+ p {
+   font-size: 1.5rem;
+ }
+
  header h2 {
    text-align: center;
  }
 
  .cv,
  .sidebar {
-  padding: 2rem 2rem;
+  padding: 2rem 3rem;
  }
 
  .cv h2:after {
   width: 40%;
+}
+
+.cv h4 {
+  font-size: 1.8rem;
 }
 
 .refes {
@@ -265,6 +295,11 @@ header h2 {
 
 .sidebar h3 {
   font-size: 1.8rem;
+}
+
+.sidebar p,
+.sidebar ul li {
+  font-size: 1.5rem;
 }
 
 }
