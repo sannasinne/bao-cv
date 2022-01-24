@@ -10,7 +10,7 @@ html {
 :root {
   --black: #000000;
   --dark-blue: #14213d;
-  --yellow: #fca311;
+  --yellow: #b3cfdd;
   --light-grey: #e5e5e5;
   --white: #ffffff;
 }
@@ -32,7 +32,6 @@ h4 {
 
 h1 {
   font-size: 5rem;
-  text-transform: uppercase;
   color: var(--white);
   margin-bottom: 1rem;
 }
@@ -110,7 +109,7 @@ header h2 {
 .icon {
   width: 1.8rem;
   margin-right: 1.6rem;
-  filter: invert(72%) sepia(74%) saturate(2679%) hue-rotate(349deg) brightness(103%) contrast(102%);
+  filter: invert(99%) sepia(3%) saturate(7300%) hue-rotate(171deg) brightness(92%) contrast(89%);
 }
 
 .sidebar p,
