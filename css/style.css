@@ -167,6 +167,22 @@ header h2 {
   margin-bottom: 1rem;
 }
 
+ul.info {
+  padding-left: 12px;
+}
+
+ul.info-nested {
+  padding-left: 24px;
+}
+
+ul.info li {
+  list-style-type: disc;
+}
+
+ul.info-nested li {
+  list-style-type: circle;
+}
+
 .date,
 .location {
   font-size: 1.4rem;
